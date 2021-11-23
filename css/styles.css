@@ -1,0 +1,28 @@
+:root {
+  /* колір вторинного тексту #757575 */
+  --primary-text-color: #757575;
+  /* колір основного тексту #212121 */
+  --title-text-color: #212121;
+  /* колір для темного фону */
+  --for-black-color: #000;
+  --primary-bg-color: #fff;
+  /* акцент #2196F3 */
+  --accent-color: #2196f3;
+}
+body {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  /* фон білий #FFFFFF */
+  /* вторичний колір фону #2196F3 */
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-size: normal;
+}
+
+.box {
+  border: 5px solid red;
+  padding: 20px;
+  margin: 20px;
+  outline: 1px solid blue;
+  margin-bottom: 40px;
+}
