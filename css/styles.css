@@ -26,3 +26,29 @@ body {
   outline: 1px solid blue;
   margin-bottom: 40px;
 } */
+/* .outer-box {
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+}
+
+.inner-box {
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  background-color: palevioletred; */
+}
+.box {
+  width: 200px;
+  height: 100px;
+}
+
+.top {
+  margin-bottom: 20px;
+  background-color: teal;
+}
+
+.bottom {
+  margin-top: 40px;
+  background-color: palevioletred;
+}
