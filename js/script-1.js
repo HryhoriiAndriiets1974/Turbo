@@ -79,3 +79,51 @@
 // }
 // filterArray([1, 2, 3, 4, 5], 3);
 // filterArray([1, 2, 3, 4, 5], 4);
+// dz-2-24 ===========================================
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+
+//   return fruits.includes(fruit); // Change this line
+// }
+// dz-2-25 =============================================
+// function getCommonElements(array1, array2) {
+//   // Change code below this line
+//   const array = [];
+//   let i = 0;
+//   let j = 0;
+//   for (i = 0; i <= array1.length; i += 1) {
+//     if (array2.includes(array1[i])) {
+//       array.push(array1[i]);
+//     }
+//   }
+
+// return array;
+//  // Change code above this line
+// }
+// dz-2-26 =============================================
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+
+//   for (const i of order) {
+//     total += i;
+//   }
+
+//   // Change code above this line
+//   return total;
+// }
+// dz-2-27 ==============================================
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const filteredNumbers = [];
+
+//   for (const i of numbers) {
+
+//     if (i > value) {
+//       filteredNumbers.push(i);
+//     }
+//   }
+
+//   return filteredNumbers;
+//   // Change code above this line
+// }
