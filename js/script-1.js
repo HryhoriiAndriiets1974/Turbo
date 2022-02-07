@@ -162,3 +162,29 @@
 //     break;
 //   }
 // }
+// dz-2-31 ===============================================
+// function findNumber(start, end, divisor) {
+//   // Change code below this line
+
+
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       return i;
+//     }
+//   }
+
+//   return null;
+//   // Change code above this line
+// }
+// console.log(findNumber(16, 35, 7));
+// dz-2-32 =================================================
+// function includes(array, value) {
+//   // Change code below this line
+//   for (const i of array) {
+//     if (i === value) {
+//       return true;
+//     }
+//   }
+//   return false;
+//   // Change code above this line
+// }console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"));
