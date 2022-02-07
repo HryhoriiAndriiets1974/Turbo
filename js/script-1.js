@@ -187,4 +187,5 @@
 //   }
 //   return false;
 //   // Change code above this line
-// }console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"));
+// }
+// console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"));
