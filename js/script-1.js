@@ -127,3 +127,38 @@
 //   return filteredNumbers;
 //   // Change code above this line
 // }
+// dz-2-28 ===============================================
+// const a = 3 % 3;
+// const b = 4 % 3;
+// const c = 11 % 8;
+// const d = 12 % 7;
+// const e = 8 % 6;
+// dz-2-29 ===============================================
+// function getEvenNumbers(start, end) {
+//   // Change code below this line
+//    const filteredNumbers = [];
+
+//  for (let i = start; i <= end; i += 1) {
+
+//    if (i % 2 === 0) {
+//      filteredNumbers.push(i);
+//    }
+//  }
+//  console.log(filteredNumbers);
+//  return filteredNumbers;
+
+
+//    // Change code above this line
+//  }
+//  getEvenNumbers(6, 12);
+//  dz-2-30 ==============================================
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+// }
