@@ -179,10 +179,91 @@
 // console.log(keys);
 // console.log(values);
 // =======================================-- 16
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+//   // Change code below this line
+//   const array = Object.values(salaries);
+//   for (salary of array) {
+//     totalSalary += salary;
+//   }
+//   // Change code above this line
+//   return totalSalary;
+// }
 // =======================================-- 17
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
+
+// const hexColors = [];
+// const rgbColors = [];
+// // Change code below this line
+// for (const color of colors) {
+//   hexColors.push(color.hex);
+//   rgbColors.push(color.rgb);
+// }
+// console.log(hexColors);
+// console.log(rgbColors);
 // =======================================-- 18
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getProductPrice(productName) {
+//   // Change code below this line
+//   for (const product of products) {
+//     if (product["name"] === productName) {
+//       return product["price"];
+//     }
+//   }
+//   return null;
+//    // Change code above this line
+// }
 // =======================================-- 19
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getAllPropValues(propName) {
+//   // Change code below this line
+//   const array = [];
+//   for (const key of products) {
+//     if (key[propName]) {
+//       array.push(key[propName]);
+//     }
+//   }
+// return array;
+
+//   // Change code above this line
+// }
 // =======================================-- 20
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function calculateTotalPrice(productName) {
+//   // Change code below this line
+//   let totalPrice = 0;
+//   for (const key of products) {
+//     if (key["name"] === productName) {
+//       totalPrice = key["price"] * key["quantity"];
+//     }
+//   }
+//   return totalPrice;
+//   // Change code above this line
+// }
+// console.log(calculateTotalPrice("Grip"));
 // =======================================-- 21
 // =======================================-- 22
 // =======================================-- 23
