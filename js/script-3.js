@@ -159,7 +159,25 @@
 //   values.push(apartment[key]);
 // }
 // =======================================-- 14
+// function countProps(object) {
+//   // Change code below this line
+//   let propCount = 0;
+//   propCount = Object.keys(object).length;
+//   return propCount;
+//   // Change code above this line
+// }
+// console.log(propCount);
 // =======================================-- 15
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// // Change code below this line
+// const keys = Object.keys(apartment);
+// const values = Object.values(apartment);
+// console.log(keys);
+// console.log(values);
 // =======================================-- 16
 // =======================================-- 17
 // =======================================-- 18
