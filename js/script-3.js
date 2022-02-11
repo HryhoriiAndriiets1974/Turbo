@@ -401,3 +401,45 @@
 //   // Change code above this line
 // }
 // =======================================-- 31
+// function add(...args) {
+//   // Change code above this line
+//   let rez = 0;
+//   for (const arg of args) {
+//     rez += arg;
+//   }
+//   return rez;
+// }
+// console.log(add(74, 11, 62, 46, 12, 36));
+// =======================================-- 32
+// function addOverNum(...args) {
+//   let total = 0;
+
+//   for (const arg of args) {
+//     if (arg > args[0]) {
+//     total += arg;}
+//   }
+
+//   return total;
+//   // Change code above this line
+// }
+// console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
+// =======================================-- 33
+// function findMatches(array, ...agrs) {
+//   const matches = []; // Don't change this line
+//   for (const agr of agrs) {
+//     if (array.includes(agr)) {
+//       matches.push(agr);
+//     }
+//   }
+//   // Change code above this line
+//   return matches;
+// }
+// console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41));
+// =======================================-- 34
+// =======================================-- 35
+// =======================================-- 36
+// =======================================-- 37
+// =======================================-- 38
+// =======================================-- 39
+// =======================================-- 40
+// =======================================-- 41
