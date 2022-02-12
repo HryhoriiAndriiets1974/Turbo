@@ -1,3 +1,4 @@
+"use strict";
 // function calculateTotal(number) {
 //   // Change code below this line
 //    let suma = 0;
