@@ -190,3 +190,24 @@
 //   // Change code above this line
 // }
 // console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"));
+
+
+//=================================--  turbo
+
+
+// const ch = [1, 2, 3, 4, 7];
+// ch[20] = 10;
+// console.log(ch[20]);
+// ==========================================
+// Параметри за замовчуванням
+// function count(countFrom = 0, countTo = 10, step = 1) {
+//   console.log(`countFrom = ${countFrom}, countTo = ${countTo}, step = ${step}`);
+
+//   for (let i = countFrom; i <= countTo; i += step) {
+//     console.log(i);
+//   }
+// }
+
+// count(1, 5, .1); // countFrom = 1, countTo = 5, step = .1
+// count(2); // countFrom = 2, countTo = 10, step = 1
+// count(); // countFrom = 0, countTo = 10, step = 1
