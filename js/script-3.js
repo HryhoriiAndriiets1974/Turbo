@@ -567,20 +567,10 @@
 // };
 // console.log(atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion"));
 // console.log(atTheOldToad.updatePotionName("Dragon breath", "Polymorth"));
-
-const book = {
-  title: "The Last Kingdom",
-  author: "Bernard Cornwell",
-  genres: ["historical prose", "adventure"],
-  isPublic: true,
-  rating: 8.38,
-};
-
-const bookTitle = book.title;
-console.log(bookTitle); // 'The Last Kingdom'
-
-const bookGenres = book.genres;
-console.log(bookGenres); // ['historical prose', 'adventurs']
-
-const bookPrice = book.price;
-console.log(bookPrice); // undefined
+//
+//
+//
+// const temps = [14, -4, 25, 8, 11];
+// console.log(...temps);
+// console.log(Math.max(...temps));
+// console.log(Math.min(...temps));
