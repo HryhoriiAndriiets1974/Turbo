@@ -17,7 +17,45 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-size: normal;
+  /* ---------------------------------------------------------- */
 }
+:root {
+  --s: 4px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 1rem;
+}
+.container-outer {
+  margin: 2px 0 0;
+  padding: 1px 0;
+  width: 75%;
+  background-color: mediumseagreen;
+}
+.container {
+  background-color: slateblue;
+  padding: 1px 0;
+  width: 50%;
+  height: var(--s);
+}
+.psr {
+  position: relative;
+}
+.box {
+  border-radius: 2px;
+  height: var(--s);
+  line-height: var(--s);
+  background-color: crimson;
+  text-align: center;
+  position: absolute;
+  /* Напиши код под этой строкой */
+  top: 0;
+  width: 10%;
+}
+<<<<<<< HEAD
 
 /* .box {
   border: 5px solid red;
@@ -26,3 +64,5 @@ body {
   outline: 1px solid blue;
   margin-bottom: 40px;
 } */
+=======
+>>>>>>> d12a080e3c8105397b4286a722cd47c8413f880b
