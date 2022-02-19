@@ -76,8 +76,45 @@
 //   return totalPrice;
 // }
 //===============================================---- 5
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+//   // Change code below this line
+
+//   orderedItems.forEach((item) => {
+//     totalPrice += item;
+//   });
+
+//   // Change code above this line
+//   return totalPrice;
+// }
 //===============================================---- 6
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+//   // Change code below this line
+
+//     numbers.forEach((item) => {
+//       if (item > value) {
+//         filteredNumbers.push(item);
+//       }
+//   });
+
+//   // Change code above this line
+//   return filteredNumbers;
+// }
 //===============================================---- 7
+// function getCommonElements(firstArray, secondArray) {
+//   const commonElements = [];
+//   // Change code below this line
+
+//    firstArray.forEach((item) => {
+//       if (secondArray.includes(item)) {
+//         commonElements.push(item);
+//       }
+//   });
+
+//   return commonElements;
+//   // Change code above this line
+// }
 //===============================================---- 8
 //===============================================---- 9
 //===============================================---- 10
