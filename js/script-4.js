@@ -208,8 +208,40 @@
 //   const titles = books.map(book => book.title);
 //   console.log(titles);
 //===============================================---- 16
+// const books = [
+//     {
+//       title: "The Last Kingdom",
+//       author: "Bernard Cornwell",
+//       genres: ["adventure", "history"],
+//     },
+//     {
+//       title: "Beside Still Waters",
+//       author: "Robert Sheckley",
+//       genres: ["fiction"],
+//     },
+//     {
+//       title: "Redder Than Blood",
+//       author: "Tanith Lee",
+//       genres: ["horror", "mysticism"],
+//     },
+//   ];
+//   // Change code below this line
+  
+//   const genres = books.flatMap(book => book.genres);
+//   console.log(genres);
 //===============================================---- 17
+// Change code below this line
+// const getUserNames = users => {
+//     return users.map(user => user.name);
+//     };
+    // Change code above this line
 //===============================================---- 18
+// Change code below this line
+// const getUserEmails = users => {
+    
+//     return users.map(user => user.email);
+//     };
+//     // Change code above this line
 //===============================================---- 19
 //===============================================---- 20
 //===============================================---- 21
