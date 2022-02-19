@@ -35,7 +35,46 @@
 //   console.log(`Eating pizza ${pizzaName}`)
 // });
 //===============================================---- 4
+// const pizzaPalace = {
+//   pizzas: ["Ultracheese", "Smoked", "Four meats"],
+//   order(pizzaName, onSuccess, onError) {
+//     for (const key of this.pizzas) {
+//       if (pizzaName === key) {
+//         return onSuccess(pizzaName);
+//       }
+//     }
+//     return  onError(`There is no pizza with a name ${pizzaName} in the assortment.`);
+//   },
+// };
+// // Change code above this line
+
+// // Callback for onSuccess
+// function makePizza(pizzaName) {
+//   return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+// }
+
+// // Callback for onError
+// function onOrderError(error) {
+//   return `Error! ${error}`;
+// }
+
+// // Method calls with callbacks
+// pizzaPalace.order("Smoked", makePizza, onOrderError);
+// pizzaPalace.order("Four meats", makePizza, onOrderError);
+// pizzaPalace.order("Big Mike", makePizza, onOrderError);
+// pizzaPalace.order("Vienna", makePizza, onOrderError);
 //===============================================---- 5
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+//   // Change code below this line
+
+//   orderedItems.forEach((item) => {
+//     totalPrice += item;
+//   });
+
+//   // Change code above this line
+//   return totalPrice;
+// }
 //===============================================---- 5
 //===============================================---- 6
 //===============================================---- 7
