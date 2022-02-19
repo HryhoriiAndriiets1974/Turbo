@@ -116,8 +116,27 @@
 //   // Change code above this line
 // }
 //===============================================---- 8
+// const calculateTotalPrice = (quantity, pricePerItem) => {
+//     // Change code above this line
+//     return quantity * pricePerItem;
+//   }
 //===============================================---- 9
+// Change code below this line
+// const calculateTotalPrice = (quantity, pricePerItem) =>  quantity * pricePerItem;
+
+// Change code above this line
 //===============================================---- 10
+// Change code below this line
+// const calculateTotalPrice = orderedItems => {
+//     let totalPrice = 0;
+  
+//     orderedItems.forEach((item) => {
+//       totalPrice += item;
+//     });
+  
+//     return totalPrice;
+//   }
+  // Change code above this line
 //===============================================---- 11
 //===============================================---- 12
 //===============================================---- 13
