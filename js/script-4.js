@@ -243,7 +243,36 @@
 //     };
 //     // Change code above this line
 //===============================================---- 19
+// const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
+// // Change code below this line
+
+// const evenNumbers = numbers.filter(namber => (namber % 2 === 0) );
+// const oddNumbers = numbers.filter(namber => (namber % 2 === 1) );
+// console.log(evenNumbers);
+// console.log(oddNumbers);
 //===============================================---- 20
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     genres: ["adventure", "history"],
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     genres: ["fiction", "mysticism"],
+//   },
+//   {
+//     title: "Redder Than Blood",
+//     author: "Tanith Lee",
+//     genres: ["horror", "mysticism", "adventure"],
+//   },
+// ];
+// // Change code below this line
+// const allGenres = books.flatMap(book => book.genres);
+// const uniqueGenres = allGenres.filter((genre, index, array) => array.indexOf(genre) === index);
+// console.log(allGenres);
+// console.log(uniqueGenres);
 //===============================================---- 21
 //===============================================---- 22
 //===============================================---- 23
