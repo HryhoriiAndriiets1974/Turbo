@@ -1015,7 +1015,7 @@
 // }, 0);
 // console.log(totalAveragePlaytimePerGame);
 //===============================================---- 36
-// // Change code below this line
+// Change code below this line
 // const users = [
 //   {
 //     name: "Moore Hensley",
@@ -1084,12 +1084,13 @@
 // // const calculateTotalBalance = users.reduce((total, user) => {
 // //   return total + user.balance;
 // // }, 0);
+// // console.log(calculateTotalBalance);
 // // Change code below this line
 // const calculateTotalBalance = users => {
 //   return users.reduce((total, value) => total + value.balance, 0);
 //  };
 //  // Change code above this line
-// console.log(calculateTotalBalance);
+// console.log(calculateTotalBalance(users));
 // // Change code above this line
 //===============================================---- 37
 //===============================================---- 38
