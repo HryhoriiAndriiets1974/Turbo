@@ -455,6 +455,10 @@
 //  // Change code above this line
 //  console.log(getUsersWithAge(users, 25, 40));
 //===============================================---- 24
+// Доповни функцію getUsersWithFriend(users, friendName)
+//  таким чином, щоб вона повертала масив користувачів,
+// у яких є один з ім'ям в параметрі friendName. Масив
+// друзів користувача зберігається у властивості friends.
 // Change code below this line
 // const users = [
 //   {
@@ -534,6 +538,11 @@
 // Change code above this line
 // console.log(getUsersWithFriend(users, "Goldie Gentry"));
 //===============================================---- 25
+// Доповни функцію getFriends(users) таким чином, щоб вона
+//  повертала масив друзів всіх користувачів (властивість
+// friends). У декількох користувачів можуть бути однакові
+//  друзі, зроби так, щоб масив, що повертається, не містив
+//  повторень.
 // // Change code below this line
 // const users = [
 //   {
@@ -615,6 +624,9 @@
 //   // Change code above this line
 //   console.log(getFriends(users) );
 //===============================================---- 26
+// Доповни функцію getActiveUsers(users) таким чином,
+// щоб вона повертала масив активних користувачів,
+// значення властивості isActive яких - true.
 // // Change code below this line
 // const users = [
 //   {
@@ -694,12 +706,23 @@
 //   // Change code above this line
 //   console.log(getActiveUsers(users));
 //===============================================---- 27
+//  Доповни функцію getInactiveUsers(users) таким чином,
+//  щоб вона повертала масив неактивних користувачів,
+//  значення властивості isActive яких - false.
 // Change code below this line
 // const getInactiveUsers = (users) => {
 //   return users.filter((user) => !user.isActive);
 //   };
   // Change code above this line
 //===============================================---- 28
+//Використовуючи метод find(), доповни код таким чином, щоб:
+
+// У змінній bookWithTitle утворився об'єкт книги, назва якої
+//  (властивість title) збігається зі значенням змінної
+//  BOOK_TITLE.
+// У змінній bookByAuthor утворився об'єкт книги, автор якої
+//   (властивість author) збігається зі значенням змінної AUTHOR.
+//
 // const books = [
 //   {
 //     title: 'The Last Kingdom',
@@ -727,6 +750,10 @@
 // console.log(bookWithTitle);
 // console.log(bookByAuthor);
 //===============================================---- 29
+// Доповни функцію getUserWithEmail(users, email) таким
+//  чином, щоб вона повертала об'єкт користувача, пошта
+//  якого (властивість email) збігається зі значенням
+// параметра email.
 // // Change code below this line
 // const users = [
 //   {
@@ -801,6 +828,21 @@
 //   console.log(getUserWithEmail(users, "elmahead@omatom.com"));
 //   console.log(getUserWithEmail(users, "blackburndotson@furnigeer.com"));
 //===============================================---- 30
+// Використовуючи метод every(), доповни код таким чином, щоб:
+
+// У змінній eachElementInFirstIsEven був результат перевірки
+//   всіх елементів масиву firstArray на парність.
+// У змінній eachElementInFirstIsOdd був результат перевірки
+//   всіх елементів масиву firstArray на непарність.
+// У змінній eachElementInSecondIsEven був результат перевірки
+//   всіх елементів масиву secondArray на парність.
+// У змінній eachElementInSecondIsOdd був результат перевірки
+//   всіх елементів масиву secondArray на непарність.
+// У змінній eachElementInThirdIsEven був результат перевірки
+//   всіх елементів масиву thirdArray на парність.
+// У змінній eachElementInThirdIsOdd був результат перевірки
+//   всіх елементів масиву thirdArray на непарність.
+//
 // const firstArray = [26, 94, 36, 18];
 // const secondArray = [17, 61, 23];
 // const thirdArray = [17, 26, 94, 61, 36, 23, 18];
@@ -821,6 +863,9 @@
 // console.log(eachElementInThirdIsEven);
 // console.log(eachElementInThirdIsOdd);
 //===============================================---- 31
+// Доповни функцію isEveryUserActive(users) таким чином,
+//  щоб вона перевіряла, чи всі користувачі зараз активні
+//  (властивість isActive) і повертала true або false.
 // // Change code below this line
 // const users = [
 //   {
@@ -893,6 +938,21 @@
 //   // Change code above this line
 //   console.log(isEveryUserActive(users));
 //===============================================---- 32
+//Використовуючи метод some(), доповни код таким чином, щоб:
+
+// У змінній anyElementInFirstIsEven був результат перевірки
+//   наявності парних елементів в масиві firstArray.
+// У змінній anyElementInFirstIsOdd був результат перевірки
+//   наявності непарних елементів в масиві firstArray.
+// У змінній anyElementInSecondIsEven був результат перевірки
+//    наявності парних елементів в масиві secondArray.
+// У змінній anyElementInSecondIsOdd був результат перевірки
+//   наявності непарних елементів в масиві secondArray.
+// У змінній anyElementInThirdIsEven був результат перевірки
+//   наявності парних елементів в масиві thirdArray.
+// У змінній anyElementInThirdIsOdd був результат перевірки
+//   наявності непарних елементів в масиві thirdArray.
+//
 // const firstArray = [26, 94, 36, 18];
 // const secondArray = [17, 61, 23];
 // const thirdArray = [17, 26, 94, 61, 36, 23, 18];
@@ -913,6 +973,9 @@
 // console.log(anyElementInThirdIsEven);
 // console.log(anyElementInThirdIsOdd);
 //===============================================---- 33
+// Доповни функцію isAnyUserActive(users) таким чином,
+// щоб вона перевіряла наявність активних користувачів
+// (властивість isActive) і повертала true або false.
 // // Change code below this line
 // const users = [
 // {
@@ -985,6 +1048,10 @@
 //   // Change code above this line
 //   console.log(isAnyUserActive(users));
 //===============================================---- 34
+// Ігровому сервісу необхідний функціонал підрахунку
+// середнього часу, проведеного в іграх. Доповни код таким
+// чином, щоб у змінній totalPlayTime вийшло загальний
+// ігровий час з масиву playtimes.
 // const players = {
 //   mango: 1270,
 //   poly: 468,
@@ -1003,6 +1070,12 @@
 // console.log(totalPlayTime);
 // console.log(averagePlayTime);
 //===============================================---- 35
+// Нашому сервісу необхідно розрахувати середній час,
+// проведений в одній грі для кожного гравця, і отримати
+//  загальну суму цих значень часу. Розрахувати час для
+//  кожного з гравців можна, розділивши його час
+// (властивість playtime) на кількість ігор
+// (властивість gamesPlayed).
 // const players = [
 //   { name: "Mango", playtime: 1270, gamesPlayed: 4 },
 //   { name: "Poly", playtime: 469, gamesPlayed: 2 },
@@ -1016,6 +1089,9 @@
 // }, 0);
 // console.log(totalAveragePlaytimePerGame);
 //===============================================---- 36
+// Доповни функцію calculateTotalBalance(users) таким чином,
+// щоб вона рахувала і повертала суму всіх коштів (властивість
+//  balance), які зберігають користувачі з масиву users.
 // Change code below this line
 // const users = [
 //   {
@@ -1094,6 +1170,9 @@
 // console.log(calculateTotalBalance(users));
 // // Change code above this line
 //===============================================---- 37
+// Доповни функцію getTotalFriendCount(users) таким чином,
+//  щоб вона рахувала і повертала загальну кількість друзів
+//  (властивість friends) усіх користувачів з масиву users.
 // // Change code below this line
 // const users = [
 //   {
@@ -1166,6 +1245,10 @@
 //  // Change code above this line
 //  console.log(getTotalFriendCount(users));
 //===============================================---- 38
+// Доповни код таким чином, щоб у змінній ascendingReleaseDates
+// вийшла копія масиву releaseDates, відсортована за зростанням,
+//  а у змінній alphabeticalAuthors - копія масиву імен авторів
+//  authors, відсортована за алфавітом.
 // const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
 // const authors = [
 //   "Tanith Lee",
@@ -1181,6 +1264,12 @@
 // console.log(ascendingReleaseDates);
 // console.log(alphabeticalAuthors);
 //===============================================---- 39
+// Онлайн бібіліотеці необхідно відображати книги,
+// відсортовані за датою видання, за її зростанням або
+// спаданням. Доповни код таким чином, щоб у змінній
+// ascendingReleaseDates вийшла копія масиву releaseDates,
+// відсортована за зростанням, а у змінній
+// descendingReleaseDates - копія, відсортована за спаданням.
 // const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
 // // Change code below this line
 
@@ -1190,6 +1279,13 @@
 // console.log(ascendingReleaseDates);
 // console.log(descendingReleaseDates);
 //===============================================---- 40
+// Онлайн бібіліотеці необхідно відображати книги,
+// відсортовані за автором, в алфавітному і зворотному
+// алфавітному порядку. Доповни код таким чином, щоб
+// у змінній authorsInAlphabetOrder вийшла копія масиву
+//  authors, відсортована за алфавітом, а у змінній
+// authorsInReversedOrder - копія, відсортована
+// у зворотному алфавітному порядку.
 // const authors = [
 //   "Tanith Lee",
 //   "Bernard Cornwell",
@@ -1205,6 +1301,13 @@
 // console.log(authorsInAlphabetOrder);
 // console.log(authorsInReversedOrder);
 //===============================================---- 41
+// Доповни код таким чином, щоб:
+
+// У змінній sortedByAuthorName вийшов масив книг, відсортований за ім'ям автора в алфавітному порядку.
+// У змінній sortedByReversedAuthorName вийшов масив книг, відсортований за ім'ям автора у зворотному алфавітному порядку.
+// У змінній sortedByAscendingRating вийшов масив книг, відсортований за зростанням рейтингу.
+// У змінній sortedByDescentingRating вийшов масив книг, відсортований за спаданням рейтингу.
+
 // const books = [
 //   {
 //     title: "The Last Kingdom",
@@ -1238,6 +1341,10 @@
 // console.log(sortedByAscendingRating);
 // console.log(sortedByDescentingRating);
 //===============================================---- 42
+// Доповни функцію sortByAscendingBalance(users) таким
+// чином, щоб вона повертала масив користувачів,
+// відсортований за зростанням їх балансу
+// (властивість balance).
 // // Change code below this line
 // const users = [
 //   {
@@ -1310,6 +1417,10 @@
 //   // Change code above this line
 //   console.log(sortByAscendingBalance(users));
 //===============================================---- 43
+// Доповни функцію sortByDescendingFriendCount(users)
+// таким чином, щоб вона повертала масив користувачів,
+// відсортований за спаданням кількості їхніх друзів
+// (властивість friends).
 // // Change code below this line
 // const users = [
 //   {
@@ -1382,6 +1493,9 @@
 //  // Change code above this line
 //  console.log(sortByDescendingFriendCount(users));
 //===============================================---- 44
+//Доповни функцію sortByName(users) таким чином, щоб
+// вона повертала масив користувачів, відсортований
+// за їх ім'ям (властивість name) в алфавітному порядку.
 // // Change code below this line
 // const users = [
 //   {
@@ -1454,6 +1568,9 @@
 //   // Change code above this line
 // console.log(sortByName(users));
 //===============================================---- 45
+// Доповни код таким чином, щоб у змінній names вийшов
+// масив імен авторів в алфавітному порядку, рейтинг
+// книг яких більший за значення змінної MIN_BOOK_RATING.
 // const books = [
 //   {
 //     title: "The Last Kingdom",
@@ -1487,6 +1604,10 @@
 
 // console.log(names);
 //===============================================---- 46
+// Доповни функцію getNamesSortedByFriendCount(users)
+// таким чином, щоб вона повертала масив імен користувачів,
+// відсортований за зростанням кількості їхніх друзів
+// (властивість friends).
 // // Change code below this line
 // const users = [
 //   {
