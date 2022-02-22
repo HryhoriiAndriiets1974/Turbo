@@ -127,6 +127,10 @@
 
 // Change code above this line
 //===============================================---- 10
+// Виконай рефакторинг функції calculateTotalPrice(orderedItems),
+//  замінивши її оголошення на стрілочну функцію. Заміни
+//  колбек-функцію, передану в метод forEach(), на
+//  стрілочну функцію.
 // Change code below this line
 // const calculateTotalPrice = orderedItems => {
 //     let totalPrice = 0;
@@ -139,6 +143,8 @@
 //   }
   // Change code above this line
 //===============================================---- 11
+// Заміни оголошення функції filterArray() і колбек для
+//  методу forEach() на стрілочні функції.
 // Change code below this line
 // const filterArray = (numbers, value) => {
 //     const filteredNumbers = [];
@@ -153,6 +159,8 @@
 //     return filteredNumbers;
 //   }
 //===============================================---- 12
+// Заміни оголошення функції getCommonElements() і
+// колбек для методу forEach() на стрілочні функції.
 // // Change code below this line
 // const getCommonElements = (firstArray, secondArray) => {
 //     const commonElements = [];
@@ -167,6 +175,13 @@
 //     return commonElements;
 //   }
 //===============================================---- 13
+// Функція changeEven(numbers, value) приймає масив чисел
+//  numbers і оновлює кожен елемент, значення якого -
+// це парне число, додаючи до нього значення параметра value.
+
+// Виконай рефакторинг функції таким чином, щоб вона стала
+//  чистою - не змінювала масив чисел numbers, а створювала,
+//  наповнювала і повертала новий масив з оновленими значеннями.
 // function changeEven(numbers, value) {
 //     // Change code below this line
 //     const newArray = [];
@@ -180,11 +195,17 @@
 //     // Change code above this line
 //   }
 //===============================================---- 14
+// Доповни код таким чином, щоб у змінній planetsLengths
+//  вийшов масив довжин назв планет. Обов'язково використовуй
+//  метод map().
 // const planets = ["Earth", "Mars", "Venus", "Jupiter"];
 // // Change code below this line
 // const planetsLengths = planets.map(planet => planet.length);
 // console.log(planetsLengths);
 //===============================================---- 15
+// Використовуючи метод map(), зроби так, щоб у змінній
+// titles вийшов масив назв книг (властивість title) з
+// усіх об'єктів масиву books.
 // const books = [
 //     {
 //       title: "The Last Kingdom",
@@ -209,6 +230,9 @@
 //   const titles = books.map(book => book.title);
 //   console.log(titles);
 //===============================================---- 16
+// Використовуючи метод flatMap(), зроби так, щоб у змінній
+//  genres вийшов масив усіх жанрів книг (властивість genres)
+//  з масиву книг books.
 // const books = [
 //     {
 //       title: "The Last Kingdom",
@@ -231,19 +255,189 @@
 //   const genres = books.flatMap(book => book.genres);
 //   console.log(genres);
 //===============================================---- 17
+// Доповни функцію getUserNames(users) таким чином,
+// щоб вона повертала масив імен користувачів
+// (властивість name) з масиву об'єктів в параметрі users.
 // Change code below this line
+// const users = [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     skills: ["ipsum", "lorem"],
+//     gender: "male",
+//     age: 37,
+//   },
+//   {
+//     name: "Sharlene Bush",
+//     email: "sharlenebush@tubesys.com",
+//     eyeColor: "blue",
+//     friends: ["Briana Decker", "Sharron Pace"],
+//     isActive: true,
+//     balance: 3821,
+//     skills: ["tempor", "mollit", "commodo", "veniam", "laborum"],
+//     gender: "female",
+//     age: 34,
+//   },
+//   {
+//     name: "Ross Vazquez",
+//     email: "rossvazquez@xinware.com",
+//     eyeColor: "green",
+//     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//     isActive: false,
+//     balance: 3793,
+//     skills: ["nulla", "anim", "proident", "ipsum", "elit"],
+//     gender: "male",
+//     age: 24,
+//   },
+//   {
+//     name: "Elma Head",
+//     email: "elmahead@omatom.com",
+//     eyeColor: "green",
+//     friends: ["Goldie Gentry", "Aisha Tran"],
+//     isActive: true,
+//     balance: 2278,
+//     skills: ["adipisicing", "irure", "velit"],
+//     gender: "female",
+//     age: 21,
+//   },
+//   {
+//     name: "Carey Barr",
+//     email: "careybarr@nurali.com",
+//     eyeColor: "blue",
+//     friends: ["Jordan Sampson", "Eddie Strong"],
+//     isActive: true,
+//     balance: 3951,
+//     skills: ["ex", "culpa", "nostrud"],
+//     gender: "male",
+//     age: 27,
+//   },
+//   {
+//     name: "Blackburn Dotson",
+//     email: "blackburndotson@furnigeer.com",
+//     eyeColor: "brown",
+//     friends: ["Jacklyn Lucas", "Linda Chapman"],
+//     isActive: false,
+//     balance: 1498,
+//     skills: ["non", "amet", "ipsum"],
+//     gender: "male",
+//     age: 38,
+//   },
+//   {
+//     name: "Sheree Anthony",
+//     email: "shereeanthony@kog.com",
+//     eyeColor: "brown",
+//     friends: ["Goldie Gentry", "Briana Decker"],
+//     isActive: true,
+//     balance: 2764,
+//     skills: ["lorem", "veniam", "culpa"],
+//     gender: "female",
+//     age: 39,
+//   },
+// ];
 // const getUserNames = users => {
 //     return users.map(user => user.name);
 //     };
-    // Change code above this line
+//     // Change code above this line
+// console.log(getUserNames(users));
 //===============================================---- 18
+// Доповни функцію getUserEmails(users) таким чином,
+// щоб вона повертала масив поштових адрес користувачів
+//  (властивість email) з масиву об'єктів в параметрі users.
 // Change code below this line
+// const users = [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     skills: ["ipsum", "lorem"],
+//     gender: "male",
+//     age: 37,
+//   },
+//   {
+//     name: "Sharlene Bush",
+//     email: "sharlenebush@tubesys.com",
+//     eyeColor: "blue",
+//     friends: ["Briana Decker", "Sharron Pace"],
+//     isActive: true,
+//     balance: 3821,
+//     skills: ["tempor", "mollit", "commodo", "veniam", "laborum"],
+//     gender: "female",
+//     age: 34,
+//   },
+//   {
+//     name: "Ross Vazquez",
+//     email: "rossvazquez@xinware.com",
+//     eyeColor: "green",
+//     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//     isActive: false,
+//     balance: 3793,
+//     skills: ["nulla", "anim", "proident", "ipsum", "elit"],
+//     gender: "male",
+//     age: 24,
+//   },
+//   {
+//     name: "Elma Head",
+//     email: "elmahead@omatom.com",
+//     eyeColor: "green",
+//     friends: ["Goldie Gentry", "Aisha Tran"],
+//     isActive: true,
+//     balance: 2278,
+//     skills: ["adipisicing", "irure", "velit"],
+//     gender: "female",
+//     age: 21,
+//   },
+//   {
+//     name: "Carey Barr",
+//     email: "careybarr@nurali.com",
+//     eyeColor: "blue",
+//     friends: ["Jordan Sampson", "Eddie Strong"],
+//     isActive: true,
+//     balance: 3951,
+//     skills: ["ex", "culpa", "nostrud"],
+//     gender: "male",
+//     age: 27,
+//   },
+//   {
+//     name: "Blackburn Dotson",
+//     email: "blackburndotson@furnigeer.com",
+//     eyeColor: "brown",
+//     friends: ["Jacklyn Lucas", "Linda Chapman"],
+//     isActive: false,
+//     balance: 1498,
+//     skills: ["non", "amet", "ipsum"],
+//     gender: "male",
+//     age: 38,
+//   },
+//   {
+//     name: "Sheree Anthony",
+//     email: "shereeanthony@kog.com",
+//     eyeColor: "brown",
+//     friends: ["Goldie Gentry", "Briana Decker"],
+//     isActive: true,
+//     balance: 2764,
+//     skills: ["lorem", "veniam", "culpa"],
+//     gender: "female",
+//     age: 39,
+//   },
+// ];
 // const getUserEmails = users => {
 
 //     return users.map(user => user.email);
 //     };
 //     // Change code above this line
+//     console.log(getUserEmails(users));
 //===============================================---- 19
+// Доповни код таким чином, щоб у змінній evenNumbers
+// утворився масив парних чисел з масиву numbers, а
+// в змінній oddNumbers - масив непарних. Обов'язково
+//  використовуй метод filter().
 // const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
 // // Change code below this line
 
@@ -252,6 +446,10 @@
 // console.log(evenNumbers);
 // console.log(oddNumbers);
 //===============================================---- 20
+// Доповни код таким чином, щоб у змінній allGenres був
+//  масив всіх жанрів книг (властивість genres) з масиву
+//  books, а у змінній uniqueGenres - масив унікальних
+//  жанрів, без повторень.
 // const books = [
 //   {
 //     title: "The Last Kingdom",
@@ -275,6 +473,16 @@
 // console.log(allGenres);
 // console.log(uniqueGenres);
 //===============================================---- 21
+// Используя метод filter() дополни код так, чтобы:
+//  Використовуючи метод filter(), доповни код таким чином, щоб:
+
+// У змінній topRatedBooks утворився масив книг, рейтинг яких
+//   (властивість rating) більший за або дорівнює значенню
+//   змінної MIN_RATING.
+// У змінній booksByAuthor утворився масив книг, написаних
+//   автором з ім'ям (властивість author), яке збігається
+//   зі значенням у змінній AUTHOR.
+//
 // const books = [
 //   {
 //     title: "The Last Kingdom",
@@ -304,6 +512,10 @@
 // console.log(topRatedBooks);
 // console.log(booksByAuthor);
 //===============================================---- 22
+// Доповни функцію getUsersWithEyeColor(users, color)
+// таким чином, щоб вона повертала масив користувачів,
+// у яких колір очей (властивість eyeColor) збігається
+//  зі значенням параметра color.
 // Change code below this line
 // const users = [
 //   {
@@ -376,6 +588,10 @@
 // Change code above this line
 // console.log(getUsersWithEyeColor(users, "green"));
 //===============================================---- 23
+// Доповни функцію getUsersWithAge(users, minAge, maxAge)
+//  таким чином, щоб вона повертала масив користувачів,
+//  вік яких (властивість age) потрапляє у проміжок
+//  від minAge до maxAge.
 // Change code below this line
 // const users = [
 //   {
