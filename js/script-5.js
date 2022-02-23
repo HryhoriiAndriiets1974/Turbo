@@ -89,6 +89,8 @@
 //   },
 //   // Change code above this line
 // };
+// console.log(historyService.getOrdersByEmail("solomon@topmail.net"));
+// console.log(historyService.getOrdersByEmail("artemis@coldmail.net"));
 // ====================================================--- 4
 // ====================================================--- 5
 // ====================================================--- 6
