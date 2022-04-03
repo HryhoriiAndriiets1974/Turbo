@@ -245,3 +245,32 @@ console.table(cars);
 // console.table(getCarsWithType(cars, 'suv'));
 // console.table(getCarsWithType(cars, 'sedan'));
 // console.table(getCarsWithType(cars, 'truck'));
+// ====================================
+// Example 6 - Метод find
+
+// const getCarByModel = (cars, carModel) =>
+//   cars.find(({ model }) => model === carModel);
+// console.log(getCarByModel(cars, 'F-150'));
+// console.log(getCarByModel(cars, 'CX-9'));
+// console.table(getCarByModel(cars, 'F-150'));
+// ====================================
+// Example 7 - Метод sort
+// Пусть функция sortByAscendingAmount возвращает
+//  новый массив автомобилей отсортированный по
+//  возврастанию значения свойства amount.
+
+// const sortByAscendingAmount = (cars) =>
+//   [...cars].sort((a, b) => a.amount - b.amount);
+// console.table(sortByAscendingAmount(cars));
+
+// const sortByDescendingAmount = (cars) =>
+//   [...cars].sort((a, b) => b.amount - a.amount);
+// console.table(sortByDescendingAmount(cars));
+
+// const sortByAscendingPrice = (cars) =>
+//   [...cars].sort((a, b) => a.price - b.price);
+// console.table(sortByAscendingPrice(cars));
+
+// const sortByDescendingPrice = (cars) =>
+//   [...cars].sort((a, b) => b.price - a.price);
+// console.table(sortByDescendingPrice(cars));
