@@ -75,6 +75,39 @@
 // const tagCount = countTags(tags);
 // console.log(tagCount);
 
+// ============= sort ====================
+// Наприклад, у нас є група студентів з балами
+//  за тест. Необхідно відсортувати масив об'єктів
+//  за зростанням і спаданням кількості балів,
+//  і за ім'ям студента.
+
+// по одному виводить
+
+// const students = [
+//   { name: "Манго", score: 83 },
+//   { name: "Полі", score: 59 },
+//   { name: "Аякс", score: 37 },
+//   { name: "Ківі", score: 94 },
+// ];
+
+// const inAscendingScoreOrder = students.sort(
+//   (firstStudent, secondStudent) => firstStudent.score - secondStudent.score
+// );
+
+// // const inDescendingScoreOrder = students.sort(
+// //   (firstStudent, secondStudent) => secondStudent.score - firstStudent.score
+// // );
+
+// // const inAlphabeticalOrder = students.sort((firstStudent, secondStudent) =>
+// //   firstStudent.name.localeCompare(secondStudent.name)
+// // );
+// //console.log(students);
+// //console.table(inAscendingScoreOrder);
+// console.log('inAscendingScoreOrder', inAscendingScoreOrder)
+// //console.log(inDescendingScoreOrder);
+// //console.log(inAlphabeticalOrder);
+
+
 // ========================
 // ======= examples =======
 // ========================
@@ -160,7 +193,7 @@ const cars = [
     onSale: false,
   },
 ];
-console.table(cars);
+// console.table(cars);
 // ====================================
 // Example 1 - Метод map
 // Пусть функция getModels возвращает массив моделей (поле model) всех автомобилей.
@@ -180,3 +213,13 @@ console.table(cars);
 // console.table(makeCarsWithDiscount(cars, 0.4));
 // console.table(makeCarsWithDiscount(cars, 0.9));
 // console.table(makeCarsWithDiscount(cars, 1));
+// ====================================
+// Example 3 - Метод filter
+// Пусть функция filterByPrice возвращает массив
+//  автомобилей цена которых меньше чем значение
+//  параметра threshold.
+// const filterByPrice = (cars, threshold) =>
+//   cars.filter(({ price }) => price < threshold);
+
+// console.table(filterByPrice(cars, 30000));
+// console.table(filterByPrice(cars, 23000));
