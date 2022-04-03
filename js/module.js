@@ -325,3 +325,25 @@ console.table(cars);
 
 // console.table(sortByMake(cars, 'asc'));
 // console.table(sortByMake(cars, 'desc'));
+// ====================================
+// Example 10 - Метод reduce
+// Пусть функция getTotalAmount возвращает общее
+//  количество автомобилей(значение свойств amount).
+
+// const getTotalAmount = (cars) =>
+//   cars.reduce((acc, { amount }) => acc + amount, 0);
+// console.log(getTotalAmount(cars));
+// ====================================
+// Example 11 - Цепочки методов
+// Пусть функция getAvailableCarNames возвращает
+//  массив моделей автомобилей, но только тех, которые
+//  сейчас на распродаже.
+
+// const getModelsOnSale = (cars) =>
+//   cars.filter(({ onSale }) => onSale).map(({ model }) => model);
+// console.table(getModelsOnSale(cars));
+
+// таблиця машин на які є скидка
+// const getModelsOnSale = (cars) =>
+//   cars.filter(({ onSale }) => onSale);
+// console.table(getModelsOnSale(cars));
