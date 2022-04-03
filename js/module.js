@@ -274,3 +274,54 @@ console.table(cars);
 // const sortByDescendingPrice = (cars) =>
 //   [...cars].sort((a, b) => b.price - a.price);
 // console.table(sortByDescendingPrice(cars));
+// ====================================
+// Example 8 - Метод sort
+// Пусть функция sortByDescendingPrice возвращает
+//  новый массив автомобилей отсортированный по
+// убыванию значения свойства price.
+
+// const sortByDescendingPrice = (cars) =>
+//   [...cars].sort((a, b) => b.price - a.price);
+// console.table(sortByDescendingPrice(cars));
+// ====================================
+// Example 9 - Метод sort
+// Пусть функция sortByModel возвращает новый массив
+//  автомобилей отсортированный по названию модели в
+//  алфавитном и обратном алфавитном порядке, в
+// засисимости от значения параметра order.
+
+// const sortByModel = (cars, order) =>
+//   [...cars].sort((a, b) => {
+//     switch (order) {
+//       case 'asc':
+//         return a.model.localeCompare(b.model);
+
+//       case 'desc':
+//         return b.model.localeCompare(a.model);
+
+//       default:
+//         return 0;
+//     }
+//   });
+
+// console.table(sortByModel(cars, 'asc'));
+// console.table(sortByModel(cars, 'desc'));
+
+// сортувати в алф порядку по виробнику
+
+// const sortByMake = (cars, order) =>
+//   [...cars].sort((a, b) => {
+//     switch (order) {
+//       case 'asc':
+//         return a.make.localeCompare(b.make);
+
+//       case 'desc':
+//         return b.make.localeCompare(a.make);
+
+//       default:
+//         return 0;
+//     }
+//   });
+
+// console.table(sortByMake(cars, 'asc'));
+// console.table(sortByMake(cars, 'desc'));
