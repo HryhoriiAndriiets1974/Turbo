@@ -193,7 +193,7 @@ const cars = [
     onSale: false,
   },
 ];
-// console.table(cars);
+console.table(cars);
 // ====================================
 // Example 1 - Метод map
 // Пусть функция getModels возвращает массив моделей (поле model) всех автомобилей.
@@ -223,3 +223,10 @@ const cars = [
 
 // console.table(filterByPrice(cars, 30000));
 // console.table(filterByPrice(cars, 23000));
+// ====================================
+// Example 4 - Метод filter
+// Пусть функция getCarsWithDiscount возвращает
+//  массив автомобилей свойство onSale которых true.
+const getCarsWithDiscount = (cars) => cars.filter(({ onSale }) => onSale);
+
+console.table(getCarsWithDiscount(cars));
