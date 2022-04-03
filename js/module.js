@@ -196,13 +196,17 @@ const cars = [
 console.table(cars);
 // ====================================
 // Example 1 - Метод map
-// Пусть функция getModels возвращает массив моделей (поле model) всех автомобилей.
-// const getModels = (cars) => cars.map(({ model }) => model);
+// Пусть функция getModels возвращает массив
+//  моделей (поле model) всех автомобилей.
 
+// const getModels = (cars) => cars.map(({ model }) => model);
 // console.table(getModels(cars));
 // ====================================
 // Example 2 - Метод map
-// Пусть функция makeCarsWithDiscount возвращает новый массив объектов с изменным значением свойства price в зависимости от переданной скидки.
+// Пусть функция makeCarsWithDiscount возвращает
+//  новый массив объектов с изменным значением
+// свойства price в зависимости от переданной скидки.
+
 // const makeCarsWithDiscount = (cars, discount) =>
 //   cars.map((car) => ({
 //     ...car,
@@ -218,15 +222,26 @@ console.table(cars);
 // Пусть функция filterByPrice возвращает массив
 //  автомобилей цена которых меньше чем значение
 //  параметра threshold.
+
 // const filterByPrice = (cars, threshold) =>
 //   cars.filter(({ price }) => price < threshold);
-
 // console.table(filterByPrice(cars, 30000));
 // console.table(filterByPrice(cars, 23000));
 // ====================================
 // Example 4 - Метод filter
 // Пусть функция getCarsWithDiscount возвращает
 //  массив автомобилей свойство onSale которых true.
-const getCarsWithDiscount = (cars) => cars.filter(({ onSale }) => onSale);
 
-console.table(getCarsWithDiscount(cars));
+// const getCarsWithDiscount = (cars) => cars.filter(({ onSale }) => onSale);
+// console.table(getCarsWithDiscount(cars));
+// ====================================
+// Example 5 - Метод filter
+// Пусть функция getCarsWithType возвращает массив
+//  автомобилей тип которых совпадает со значением
+//  параметра type.
+
+// const getCarsWithType = (cars, carType) =>
+//   cars.filter(({ type }) => type === carType);
+// console.table(getCarsWithType(cars, 'suv'));
+// console.table(getCarsWithType(cars, 'sedan'));
+// console.table(getCarsWithType(cars, 'truck'));
