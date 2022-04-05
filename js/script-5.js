@@ -20,8 +20,10 @@
 //   },
 //   // Change code above this line
 // };
-// pizzaPalace.order("Smoked");
+// // pizzaPalace.order("Smoked");
 // console.log(pizzaPalace.order("Smoked"));
+// console.log(pizzaPalace.order("Sked"));
+// console.log(pizzaPalace.order("Four meats"));
 // ====================================================--- 2
 // Перед звільненням розробник зламав вихідний код управління
 //  акаунтами користувачів нашого сервісу доставки їжі. Виконай
@@ -36,30 +38,24 @@
 //   discount: 0.1,
 //   orders: ["Burger", "Pizza", "Salad"],
 //   // Change code below this line
-//   getBalance() {
-//     return this.balance;
-//   },
-//   getDiscount() {
-//     return this.discount;
-//   },
-//   setDiscount(value) {
-//     this.discount = value;
-//   },
-//   getOrders() {
-//     return this.orders;
-//   },
+//   getBalance() { return this.balance; },
+//   getDiscount() { return this.discount; },
+//   setDiscount(value) { this.discount = value;},
+//   getOrders() { return this.orders; },
 //   addOrder(cost, order) {
 //     this.balance -= cost - cost * this.discount;
 //     this.orders.push(order);
 //   },
 //   // Change code above this line
 // };
-
+// console.table(customer);
 // customer.setDiscount(0.15);
 // console.log(customer.getDiscount()); // 0.15
 // customer.addOrder(5000, "Steak");
+// customer.addOrder(4000, "Coca-cola");
 // console.log(customer.getBalance()); // 19750
 // console.log(customer.getOrders()); // ["Burger", "Pizza", "Salad", "Steak"]
+// console.table(customer);
 // ====================================================--- 3
 // Тестувальники знайшли баги в коді сервісу зберігання
 //  історії замовлень їжі. Тобі необхідно виправити їх,
@@ -89,8 +85,9 @@
 //   },
 //   // Change code above this line
 // };
-// console.log(historyService.getOrdersByEmail("solomon@topmail.net"));
-// console.log(historyService.getOrdersByEmail("artemis@coldmail.net"));
+// console.table(historyService.orders);
+// console.table(historyService.getOrdersByEmail("solomon@topmail.net"));
+// console.table(historyService.getOrdersByEmail("artemis@coldmail.net"));
 // ====================================================--- 4
 // Зміни код таким чином, щоб об'єкт parent став прототипом
 // для об'єкта у змінній сhild.
