@@ -28,7 +28,7 @@
 // petya.showThis();
 // petya.showName();
 // =============== геттери і сеттери
-// =============== статичні властивості і методи
+// =============== статичні властивості
 // class User {
 //   // Оголошення та ініціалізація статичної властивості
 //   static Roles = {
@@ -36,19 +36,13 @@
 //     EDITOR: "editor",
 //   };
 
-//   static #takenEmails = [];
-
-//   static isEmailTaken(email) {
-//     return User.#takenEmails.includes(email);
-//   }
-
 //   #email;
 //   #role;
 
 //   constructor({ email, role }) {
 //     this.#email = email;
 //     this.#role = role;
-//     User.#takenEmails.push(email);
+
 //   }
 
 //   get role() {
@@ -58,8 +52,6 @@
 //   set role(newRole) {
 //     this.#role = newRole;
 //   }
-
-
 // }
 
 // const mango = new User({
@@ -73,8 +65,27 @@
 // console.log(mango.role); // "admin"
 // mango.role = User.Roles.EDITOR;
 // console.log(mango.role);
+// ============== static metod
+// class User {
+//   static #takenEmails = [];
+
+//   static isEmailTaken(email) {
+//     return User.#takenEmails.includes(email);
+//   }
+
+//   #email;
+
+//   constructor({ email }) {
+//     this.#email = email;
+//     User.#takenEmails.push(email);
+//   }
+// }
+
+// const mango = new User({ email: "mango@mail.com" });
+
 // console.log(User.isEmailTaken("poly@mail.com"));
 // console.log(User.isEmailTaken("mango@mail.com"));
+
 
 // ====== Наслідування класів
 // class User {
