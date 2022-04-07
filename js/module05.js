@@ -78,6 +78,7 @@
 
 // ====== Наслідування класів
 // class User {
+//   email;
 //   constructor(email) {
 //     this.email = email;
 //   }
@@ -98,3 +99,30 @@
 // const editor = new ContentEditor("mango@mail.com");
 // console.log(editor); // { email: "mango@mail.com" }
 // console.log(editor.email); // "mango@mail.com"
+// ========= Дочірній клас
+// class User {
+//   email;
+//   constructor(email) {
+//     this.email = email;
+//   }
+
+//   get email() {
+//     return this.email;
+//   }
+
+//   set email(newEmail) {
+//     this.email = newEmail;
+//   }
+// }
+
+// class ContentEditor extends User {
+//   constructor({ email, posts }) {
+//     // Виклик конструктора батьківського класу User
+//     super(email);
+//     this.posts = posts;
+//   }
+// }
+
+// const editor = new ContentEditor({ email: "mango@mail.com", posts: [] });
+// console.log(editor); // { email: 'mango@mail.com', posts: [] }
+// console.log(editor.email); // 'mango@mail.com'
