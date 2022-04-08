@@ -485,6 +485,7 @@
 //  SUPERUSER: "superuser"}
 
 // class User {
+//   // email; ========= Error буде
 //   constructor(email) {
 //     this.email = email;
 //   }
@@ -501,6 +502,12 @@
 // class Admin extends User {
 //   static AccessLevel = {BASIC: "basic", SUPERUSER: "superuser"};
 // }
+// // const editor = new Admin('"mango@mail.com"');
+
+// // editor.email = "mango@mail.com"
+// // console.log(editor);
+// // console.log(editor.email);
+
 // ====================================================--- 19
 // Додай класу Admin метод constructor, який приймає один параметр
 //  - об'єкт налаштувань з двома властивостями email і

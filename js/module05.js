@@ -110,6 +110,31 @@
 // const editor = new ContentEditor("mango@mail.com");
 // console.log(editor); // { email: "mango@mail.com" }
 // console.log(editor.email); // "mango@mail.com"
+
+// ====== Наслідування класів варіант Гарі
+
+// class User {
+//   // email;
+//   constructor(email) {
+//     this._email = email;
+//   }
+
+//   get email() {
+//     return this._email;
+//   }
+
+//   set email(newEmail) {
+//     this._email = newEmail;
+//   }
+// }
+
+// class ContentEditor extends User {
+//   // Тіло класу ContentEditor
+// }
+
+// const editor = new ContentEditor("mango@mail.com");
+// console.log(editor); // { email: "mango@mail.com" }
+// console.log(editor.email); // "mango@mail.com"
 // ========= Дочірній клас
 // class User {
 //   email;
