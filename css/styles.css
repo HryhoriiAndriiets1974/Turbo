@@ -11,24 +11,27 @@
 }
 body {
   /* font-family: 'Raleway', sans-serif; */
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', 'Raleway', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
   /* фон білий #FFFFFF */
   /* вторичний колір фону #2196F3 */
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-size: normal;
+  padding-top: 1rem;
   /* ---------------------------------------------------------- */
 }
 :root {
   --s: 4px;
 }
-* {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body {
-  padding-top: 1rem;
-}
+
 .container-outer {
   margin: 2px 0 0;
   padding: 1px 0;
@@ -55,14 +58,22 @@ body {
   top: 0;
   width: 10%;
 }
-<<<<<<< HEAD
+button,
+label {
+  cursor: pointer;
+}
 
-/* .box {
-  border: 5px solid red;
-  padding: 20px;
-  margin: 20px;
-  outline: 1px solid blue;
-  margin-bottom: 40px;
-} */
-=======
->>>>>>> d12a080e3c8105397b4286a722cd47c8413f880b
+input {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
