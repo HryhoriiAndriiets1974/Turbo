@@ -177,7 +177,7 @@
 //   return null;
 //   // Change code above this line
 // }
-// console.log(findNumber(16, 35, 7));
+// console.log(findNumber(16, 35, 17));
 // dz-2-32 =================================================
 // function includes(array, value) {
 //   // Change code below this line
