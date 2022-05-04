@@ -9,20 +9,30 @@
 // };
 // console.log(apartment);
 // =======================================-- 2
-// const apartment = {
-//   imgUrl: "https://via.placeholder.com/640x480",
-//   descr: "Spacious apartment in the city center",
-//   rating: 4,
-//   price: 2153,
-//   tags: ["premium", "promoted", "top"],
-//   owner: {
-//     name: "Henry",
-//     phone: "982-126-1588",
-//     email: "henry.carter@aptmail.com",
-//   },
-// };
-// console.log(apartment);
-// console.log(apartment.owner);
+const apartment = {
+  imgUrl: "https://via.placeholder.com/640x480",
+  descr: "Spacious apartment in the city center",
+  rating: 4,
+  price: 2153,
+  tags: ["premium", "promoted", "top"],
+  owner: {
+    name: "Henry",
+    phone: "982-126-1588",
+    email: "henry.carter@aptmail.com",
+  },
+};
+console.log(apartment);
+console.log(apartment.owner);
+console.log(apartment.price);
+console.log(typeof(apartment.price));
+console.log(Number(apartment.tags));
+console.log(typeof(Number(apartment.tags)));
+console.log(apartment.descr);
+console.log(typeof(apartment.owner));
+console.log(typeof(apartment.imgUrl));
+console.log(apartment.tags);
+console.table(apartment.tags);
+console.dir(apartment.tags);
 // =======================================-- 3
 // const apartment = {
 //   imgUrl: "https://via.placeholder.com/640x480",
